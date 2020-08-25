@@ -2,18 +2,18 @@
     title = "Effective Terminology in IETF drafts"
     abbrev = "Effective Terminology"
     category = "rfc"
-    docName = "draft-gondwana-effective-terminology-00"
+    docName = "draft-gondwana-effective-terminology-01"
     updates = []
     ipr= "trust200902"
     area = "General"
     workgroup = "GENDISPATCH"
     keyword = []
 
-    date = 2020-08-20T00:00:00Z
+    date = 2020-08-25T00:00:00Z
 
     [seriesInfo]
     name="Internet-Draft"
-    value="draft-gondwana-effective-terminology-00"
+    value="draft-gondwana-effective-terminology-01"
     stream="IETF"
     status="standard"
 
@@ -50,50 +50,11 @@ the future, implies that we should be conservative in the language
 that we send.  Effective language expresses our intent with clarity,
 and without distraction.
 
-This document describes a mechanism for increasing awareness of words
-that are likely to cause distraction to readers, both now and in the
-future, while maintaining document clarity and not interfering with
-our mission.
+This document describes a glossary for increasing awareness of terms
+which are going to be clear and effective without turning readers away,
+to enable our mission of making the Internet work better.
 
 {mainmatter}
-
-# Background
-
-There has been much debate about the use of terminology in IETF documents
-in 2020, and the debate has focused on the areas in which we disagree.
-
-There's a lot we do agree on.
-
-There are policy suggestions that we don't agree on, either because we
-hold different values, or we hold the same values with different weight.
-
-There are also a subset of the facts that we don't agree on, and likely
-will never agree on.  We disagree on the costs of proposed changes, and
-we disagree on the benefits.  You can't do a cost/benefit analysis without
-agreeing on both of those, so we can't form a consensus which relies on
-a cost/benefit tradeoff in those areas.
-
-There is a suspicion among some participants in the IETF that our
-institutional power is being leveraged to add weight to the idea that
-consensus already exists in the world that certain words are inherently
-causing damage - and anyone who disagrees is in the rough.
-
-Within the IETF we do not have consensus on whether simply removing certain
-words will increase or decrease the quality of participation in the IETF,
-or the influence that our documents have in the world.
-
-It is not simple to change existing standards or change terminology for
-existing concepts.  It's not just search/replace once, the synonymous terms
-will travel in parallel for a long time, causing confusion and fragility in
-systems (hopefully rarely at the level of crashing space probes because of
-incorrect units!)
-
-The IETF works by rough consensus.  Possible pathways to consensus are
-persuasion, fatigue, or declaring the opposition to be in the rough!
-Of these, persuasion is by far the preferable.
-
-This document is an attempt to highlight the bits where we do agree, persuade
-both "sides" that the other side has valid points, and find a path forward.
 
 # Introduction
 
@@ -130,7 +91,9 @@ distracted from the technical purpose of the document upon seeing this word.
 Likewise, words have different meanings in different cultures, different languages,
 or to different groups of humans.
 
-While we can't enumerate all possible words which are distracting, we can avoid the ones we know.  This naturally happens anyway as individuals in working groups become aware of them, and it happens more quickly if we crowd-source change.
+While we can't enumerate all possible words which are distracting, we can avoid
+the ones we know.  This naturally happens anyway as individuals in working groups
+become aware of them, and it happens more quickly if we crowd-source change.
 
 ## Words can encourage or discourage participation
 
@@ -190,20 +153,17 @@ our mission quite well.  It's important to stay grounded in that
 reality and acknowledge that while we may be able to do better in
 certain ways, what we have right now is pretty great.
 
-## There is not consensus in the wider community on words causing harm
+## We will naturally follow emerging consensus in the wider world
 
 When a technical word happens to match a word which is harmful
-in other contexts, it is widely disputed that continuing to use
-such words turns away a significant population who would
-otherwise both engage with, and add value to, our community.
+in other contexts, it does not always turn away a significant
+population who would otherwise both engage with, and add value
+to, our community.
 
-It is likewise disputed that the existence of those terms in
-our documents discourages their use, or causes harm to those
-who come across them.
-
-In the case of words where wide agreement does exist, there's
-a natural tendency among authors and working group members to
-avoid those words.
+Where a consensus is developing in the wider world about a term,
+it will follow that reviewers, both inside working groups and
+during last call, will notice those terms and flag them as possible
+concerns to the authors.
 
 # How to choose terminology for our documents
 
@@ -256,8 +216,8 @@ It is incumbent for those reviewing and wishing to provide
 feedback to understand the scope and history of any technical term,
 and not just match on keywords and provide no other contribution.
 
-Final choice always rests with the authors.  The mechanisms for
-objecting to that are the same as for technical choices - a
+Final term choice always rests with document authors.  The mechanisms
+for objecting to that are the same as for technical choices - a
 competing draft with different authors, or failure to form
 consensus and progress the document.
 
@@ -267,11 +227,10 @@ The entire IETF is best placed to have an overview of which
 terms have different meanings in other contexts and may generate
 unwanted side effects.
 
-TODO: It would be valuable for a group within the IETF to
-maintain a glossary of terms, with both their technical meanings
+It would be valuable for a group within the IETF to maintain a
+glossary of terms, with both their technical meanings
 and other meanings in different cultures, professions, or
-languages.  I am not specifying that form here and am looking
-for input — Bron.
+languages.
 
 This document should reference other similar documents produced
 by non-IETF groups, in order to align our language with the rest
@@ -303,9 +262,14 @@ interest in evaluating the tradeoffs being made.
 
 EDITOR: please remove this section before publication.
 
-## draft-gondwana-effective-terminology-00
+**draft-gondwana-effective-terminology-00**
 - my initial suggestions, probably needs lots of review and I imagine I've missed a lot.  Please give kind feedback!
 
+**draft-gondwana-effective-terminology-01**
+- based on initial private feedback, trimmed the "Background" section entirely and simplified some wording.
+
 # Acknowledgements
+
+- I'll fill this section out once this is public and based on public feedback.
 
 {backmatter}
