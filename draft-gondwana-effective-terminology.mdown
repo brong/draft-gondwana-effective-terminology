@@ -262,6 +262,8 @@ interest in evaluating the tradeoffs being made.
 
 EDITOR: please remove this section before publication.
 
+The source of this document exists on github at: https://github.com/brong/draft-gondwana-effective-terminology
+
 **draft-gondwana-effective-terminology-00**
 - my initial suggestions, probably needs lots of review and I imagine I've missed a lot.  Please give kind feedback!
 
